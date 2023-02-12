@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h2 align="center">Design HTML Form</h2>
+</head>
+<body>
+    <form>
+    <table border="3" cellpadding="5" cellspacing="2">
+        <caption><b>Registration Form</b></caption>
+       <tr>
+        <th>Enter Institute Name :</th>
+        <td><input colspan="2" rowspan="1" align="center" type="text" name="iname" value="IT Edge Training Solutions" width="500" readonly></td>
+       </tr>
+        <tr>
+        <th>Enter First Name :</th>
+        <td><input colspan="1" align="center" type="text" name="fname" value=""></td>
+       </tr>
+
+       <tr>
+        <th>Enter Last Name :</th>
+       <td><input type="text" name="lname" value=""></td>
+       </tr>
+
+        <tr>
+        <th>Enter your Mail ID</th>
+        <td><input type="text" name="Mailid" value=""></td>
+        </tr>
+        
+        <tr>
+        <td><b>Enter The Password :</b></td>
+        <td><input type="password" name="pswd" value=""></td>
+        </tr>
+
+        <tr>
+        <td><b>Enter Gender</b></td>
+        <td colspan="1"><input type="radio" name="gender" value="male">Male<br><input type="radio" name="gender" value="female">Female<br><input type="radio" name="gender" value="other">Other</td>
+        </tr>
+
+        <tr>
+        <td><b>Select Subject</b></td>
+        <td colspan="1"><input type="checkbox" name="sub" value="C programming">C Programming<br>
+        <input type="checkbox" name="sub" value="Cpp programming">Cpp Programming<br>
+        <input type="checkbox" name="sub" value="R programming">R Programming<br>
+        <input type="checkbox" name="sub" value="Unix OS">Unix OS</td><br>
+        </tr>
+
+        <tr>
+        <td><b>Select City</b></td>
+        <td colspan="1"><select name="select city">
+           <option value="Pune">Pune</option>
+            <option value="Satara">Satara</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolhapur">Kolhapur</option></td>
+        </select>
+        </tr>
+        <tr>
+        <td><b>Upload Your CV</b></td>
+        <td colspan="1"><input type="file" name="myfile">
+        <input type="submit" name="submit" value="Upload File"></td>
+        </tr>
+
+        <tr>
+        <title>button control</title>
+        <td colspan="2" align="center"><input type="submit" name="submit" value="Submit"/>
+        <input type="reset" name="reset" value="Reset" />
+        <input type="image" name="imagebutton" src="ok button.png" height="50" width="50" alt="OK" align="center"/></td>
+        </tr>
+
+    </table>
+    </form>
+</body>
+</html>
